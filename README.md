@@ -4,6 +4,9 @@ Make sure to install the mysqlclient library, as this app uses the mysql backend
 
 The admin username is: gradmin
 The password for the admin is: 12345%Qwerty
+Email can be any email
+
+If login does not work, please create the admin user with the `manage.py` command utils
 
 The `DEBUG = True` in the Django settings file
 
@@ -24,4 +27,3 @@ Run the tests with the command
 
 More tests could be added, such as:
 Make sure we do not add a duplicate reservation to the same rental (e.g same checkin, checkout dates)
-Make sure

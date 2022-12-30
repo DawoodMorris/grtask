@@ -46,4 +46,7 @@ def reservations(request):
             info += '</tr>'
     info += '</tbody></body></html>'
 
+    if len(reservs) < 1:
+        info = '<h2>There no reservations yet, please login as admin and add reservations.</h2>'
+
     return HttpResponse(info)

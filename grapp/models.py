@@ -47,9 +47,9 @@ class Reservation(models.Model):
         """
         Save the reservation information
         """
-        if self.checkin < timezone.now():
+        if self.checkin < datetime.datetime.now().date():
             return False
-        if self.checkout < timezone.now():
+        if self.checkout < datetime.datetime.now().date():
             return False
         super().save()
         return True
