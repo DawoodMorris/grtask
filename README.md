@@ -5,7 +5,7 @@ Make sure to install the mysqlclient library, as this app uses the mysql backend
 The admin username is: gradmin
 The password for the admin is: 12345%Qwerty
 
-The DEBUG = True in the Django settings file
+The `DEBUG = True` in the Django settings file
 
 Here is how to run the app:
 
