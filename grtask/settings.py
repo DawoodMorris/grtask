@@ -78,9 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'DjangoProjectDB',
-        'USER': 'tgldbuser',
-        'PASSWORD': '1o#4QcTF3kJ#fnimO$vxTeGs94mxUAdjj8U',
-        'HOST': 'service-zunu-db.techxdynamics.com',
+        'USER': 'root',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
         'PORT': '3306'
     }
 }
